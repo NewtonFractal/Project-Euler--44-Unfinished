@@ -4,7 +4,7 @@ start = time.time()
 Pentagon_Numbers = []
 
 def Pentagon_number_generator():
-    for x in range(1,3000):
+    for x in range(100,3000):
         Pentagon_Numbers.append(int((x*(3*x-1))/2))
 
 Pentagon_number_generator()
